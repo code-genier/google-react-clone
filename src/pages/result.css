@@ -1,0 +1,99 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.resultHeader{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+    align-items: flex-start;
+}
+
+.resultPageLogo{
+    height: 50px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.resultHeaderBody > .search > .seacrhInput{
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    max-width: unset;
+}
+
+.searchPageOptions{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.searchPageOptions a{
+    text-decoration: none;
+    color: gray;
+}
+
+.optionRight{
+    margin-left: 80px;
+}
+
+.optionLeft, .optionRight{
+    display: flex;
+}
+
+.searchPageOption{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.searchPageOption a{
+    margin-left: 5px;
+}
+
+.searchPageResults{
+    margin: 40px 0;
+}
+
+.searchPageResult{
+    margin-top: 20px;
+}
+
+.searchPageResultsCounts{
+    color: #70757a;
+    font-size: 14px;
+}
+
+.searchPageResults{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.searchPageResult a{
+    text-decoration: none;
+}
+
+.searchPageResultTitle:hover{
+    text-decoration: underline;
+}
+
+.searchPageResultTitle > h2{
+    font-weight: 500;
+}
+
+.searchPageResultSnippet{
+    margin-top: 10px;
+}
+
+.resultImage{
+    object-fit: contain;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
